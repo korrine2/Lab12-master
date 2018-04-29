@@ -1,0 +1,627 @@
+[
+  {
+    "expression": "かたがた",
+    "meaning": "while; for the purpose of",
+    "frequency": 4
+  },
+  {
+    "expression": "かたわら",
+    "meaning": "while; at the same time",
+    "frequency": 6
+  },
+  {
+    "expression": "がてら",
+    "meaning": "while, at the same time",
+    "frequency": 6
+  },
+  {
+    "expression": "がはやいか",
+    "meaning": "as soon as",
+    "frequency": 1
+  },
+  {
+    "expression": "そばから",
+    "meaning": "as soon as",
+    "frequency": 5
+  },
+  {
+    "expression": "なり",
+    "meaning": "as soon as",
+    "frequency": 0
+  },
+  {
+    "expression": "や否や",
+    "meaning": "as soon as",
+    "frequency": 3
+  },
+  {
+    "expression": "てからというもの",
+    "meaning": "after; since",
+    "frequency": 8
+  },
+  {
+    "expression": "を限りに",
+    "meaning": "starting from",
+    "frequency": 2
+  },
+  {
+    "expression": "を皮切りに",
+    "meaning": "startting with",
+    "frequency": 3
+  },
+  {
+    "expression": "をもって",
+    "meaning": "by means of; with",
+    "frequency": 26
+  },
+  {
+    "expression": "がさいご",
+    "meaning": "once something occurs",
+    "frequency": 4
+  },
+  {
+    "expression": "ことなし",
+    "meaning": "without doing something",
+    "frequency": 2
+  },
+  {
+    "expression": "とあれば",
+    "meaning": "if it is the case that",
+    "frequency": 1
+  },
+  {
+    "expression": "ともなると",
+    "meaning": "once something occurs",
+    "frequency": 8
+  },
+  {
+    "expression": "なくして",
+    "meaning": "without",
+    "frequency": 10
+  },
+  {
+    "expression": "なしに",
+    "meaning": "without",
+    "frequency": 20
+  },
+  {
+    "expression": "ならでは",
+    "meaning": "tyical of",
+    "frequency": 12
+  },
+  {
+    "expression": "こととて",
+    "meaning": "even if",
+    "frequency": 5
+  },
+  {
+    "expression": "ではあるまいし",
+    "meaning": "it's not like",
+    "frequency": 7
+  },
+  {
+    "expression": "とあって",
+    "meaning": "because of",
+    "frequency": 12
+  },
+  {
+    "expression": "べく",
+    "meaning": "must; should",
+    "frequency": 15
+  },
+  {
+    "expression": "ゆえ",
+    "meaning": "for a reason",
+    "frequency": 18
+  },
+  {
+    "expression": "たとこれ",
+    "meaning": "even so",
+    "frequency": 0
+  },
+  {
+    "expression": "であれ",
+    "meaning": "even if",
+    "frequency": 10
+  },
+  {
+    "expression": "といえども",
+    "meaning": "even",
+    "frequency": 3
+  },
+  {
+    "expression": "と思いきや",
+    "meaning": "I though",
+    "frequency": 3
+  },
+  {
+    "expression": "ところを",
+    "meaning": "about to",
+    "frequency": 13
+  },
+  {
+    "expression": "としたところで",
+    "meaning": "about to",
+    "frequency": 2
+  },
+  {
+    "expression": "とはいえ",
+    "meaning": "even so",
+    "frequency": 22
+  },
+  {
+    "expression": "ながらも",
+    "meaning": "while, at the same time",
+    "frequency": 9
+  },
+  {
+    "expression": "ものを",
+    "meaning": "If only",
+    "frequency": 190
+  },
+  {
+    "expression": "ようが",
+    "meaning": "no matter how",
+    "frequency": 425
+  },
+  {
+    "expression": "いかん",
+    "meaning": "depending on",
+    "frequency": 8
+  },
+  {
+    "expression": "いかんによらず",
+    "meaning": "regardless of",
+    "frequency": 1
+  },
+  {
+    "expression": "とあいまって",
+    "meaning": "along with",
+    "frequency": 3
+  },
+  {
+    "expression": "にかかわる",
+    "meaning": "in relation to",
+    "frequency": 9
+  },
+  {
+    "expression": "をものともせずに",
+    "meaning": "without basis",
+    "frequency": 0
+  },
+  {
+    "expression": "をよそに",
+    "meaning": "despite",
+    "frequency": 11
+  },
+  {
+    "expression": "のみならず",
+    "meaning": "besides",
+    "frequency": 8
+  },
+  {
+    "expression": "ないまでも",
+    "meaning": "even if something is not done",
+    "frequency": 12
+  },
+  {
+    "expression": "にひきかえ",
+    "meaning": "in contrast to",
+    "frequency": 11
+  },
+  {
+    "expression": "にまして",
+    "meaning": "more than",
+    "frequency": 0
+  },
+  {
+    "expression": "はおろうか",
+    "meaning": "not to mention",
+    "frequency": 0
+  },
+  {
+    "expression": "もさることながら",
+    "meaning": "not only",
+    "frequency": 3
+  },
+  {
+    "expression": "であれ",
+    "meaning": "even",
+    "frequency": 10
+  },
+  {
+    "expression": "といいといい",
+    "meaning": "and; or",
+    "frequency": 22
+  },
+  {
+    "expression": "ようがまいが",
+    "meaning": "whether or not",
+    "frequency": 3
+  },
+  {
+    "expression": "ごとき",
+    "meaning": "like; as if",
+    "frequency": 13
+  },
+  {
+    "expression": "すくめ",
+    "meaning": "enterily",
+    "frequency": 0
+  },
+  {
+    "expression": "っぱなし",
+    "meaning": "levaving something in use",
+    "frequency": 3
+  },
+  {
+    "expression": "とばかりに",
+    "meaning": "as if; as though",
+    "frequency": 5
+  },
+  {
+    "expression": "ともかく",
+    "meaning": "whether or not; nevermind; regardless of; not to mentio",
+    "frequency": 13
+  },
+  {
+    "expression": "なりに",
+    "meaning": "in its own way",
+    "frequency": 37
+  },
+  {
+    "expression": "ながらに",
+    "meaning": "while, during",
+    "frequency": 3
+  },
+  {
+    "expression": "にあって",
+    "meaning": "in; on; at; during; in the condition of",
+    "frequency": 11
+  },
+  {
+    "expression": "にいたる",
+    "meaning": "as far as",
+    "frequency": 11
+  },
+  {
+    "expression": "にそくして",
+    "meaning": "to agree with; in keeping with; to be based on",
+    "frequency": 3
+  },
+  {
+    "expression": "にたえない",
+    "meaning": "cannot do something",
+    "frequency": 0
+  },
+  {
+    "expression": "に絶える",
+    "meaning": "can do something",
+    "frequency": 0
+  },
+  {
+    "expression": "に足る",
+    "meaning": "to be enough; to be worthy of",
+    "frequency": 1
+  },
+  {
+    "expression": "まみれ",
+    "meaning": "full of",
+    "frequency": 4
+  },
+  {
+    "expression": "めく",
+    "meaning": "to show signs of; to have the appearance of",
+    "frequency": 10
+  },
+  {
+    "expression": "んばかりだ",
+    "meaning": "as if; as though",
+    "frequency": 4
+  },
+  {
+    "expression": "あっての",
+    "meaning": "which owes everything to; which can exist solely due to the presence of",
+    "frequency": 4
+  },
+  {
+    "expression": "からある",
+    "meaning": "as much as; as many as",
+    "frequency": 33
+  },
+  {
+    "expression": "ごとき",
+    "meaning": "like; as if; the same as",
+    "frequency": 7
+  },
+  {
+    "expression": "ですら",
+    "meaning": "even",
+    "frequency": 19
+  },
+  {
+    "expression": "だに",
+    "meaning": "even",
+    "frequency": 15
+  },
+  {
+    "expression": "たりとも",
+    "meaning": "not even; not any",
+    "frequency": 7
+  },
+  {
+    "expression": "でなくてなんだろう",
+    "meaning": "must be; is definitely",
+    "frequency": 2
+  },
+  {
+    "expression": "ときたら",
+    "meaning": "when it comes to; concerningl",
+    "frequency": 9
+  },
+  {
+    "expression": "とはいえ",
+    "meaning": "nonetheless; though; although; be that as it may",
+    "frequency": 22
+  },
+  {
+    "expression": "にして",
+    "meaning": "only; even; in",
+    "frequency": 130
+  },
+  {
+    "expression": "ばこそ",
+    "meaning": "only because",
+    "frequency": 8
+  },
+  {
+    "expression": "まじき",
+    "meaning": "should not; must not",
+    "frequency": 4
+  },
+  {
+    "expression": "をおいて",
+    "meaning": "other than; without",
+    "frequency": 7
+  },
+  {
+    "expression": "んがために",
+    "meaning": "in order to",
+    "frequency": 4
+  },
+  {
+    "expression": "かぎりだ",
+    "meaning": "I feel so",
+    "frequency": 5
+  },
+  {
+    "expression": "極まる",
+    "meaning": "extremely",
+    "frequency": 2
+  },
+  {
+    "expression": "てやまない",
+    "meaning": "always; never stop; cannot help but",
+    "frequency": 1
+  },
+  {
+    "expression": "といったらない",
+    "meaning": "very, extremely",
+    "frequency": 5
+  },
+  {
+    "expression": "にはあたらない",
+    "meaning": "it's not worth; no need to",
+    "frequency": 8
+  },
+  {
+    "expression": "にかたくない",
+    "meaning": "it’s not hard to",
+    "frequency": 4
+  },
+  {
+    "expression": "べからざる",
+    "meaning": "must not; should not; do not",
+    "frequency": 1
+  },
+  {
+    "expression": "べからず",
+    "meaning": "must not; should not; do not",
+    "frequency": 4
+  },
+  {
+    "expression": "までもない",
+    "meaning": "not necessary",
+    "frequency": 20
+  },
+  {
+    "expression": "を禁じ得ない",
+    "meaning": "cannot help but",
+    "frequency": 1
+  },
+  {
+    "expression": "ずにはおかない",
+    "meaning": "will definetly do something",
+    "frequency": 4
+  },
+  {
+    "expression": "ずにはすまない",
+    "meaning": "will not be completed without",
+    "frequency": 2
+  },
+  {
+    "expression": "ないものでもない",
+    "meaning": "it is not enterely impossible",
+    "frequency": 3
+  },
+  {
+    "expression": "きらいがある",
+    "meaning": "to have a tendency to",
+    "frequency": 5
+  },
+  {
+    "expression": "しまつだ",
+    "meaning": "end up; in the end",
+    "frequency": 2
+  },
+  {
+    "expression": "というとこころだ",
+    "meaning": "about to",
+    "frequency": 2
+  },
+  {
+    "expression": "ばそれまでだ",
+    "meaning": "it is over",
+    "frequency": 0
+  },
+  {
+    "expression": "までのことだ",
+    "meaning": "it is over",
+    "frequency": 111
+  },
+  {
+    "expression": "を余技なくされる",
+    "meaning": "to be forced to do something",
+    "frequency": 1
+  },
+  {
+    "expression": "なんてよく言える",
+    "meaning": "typical of someone",
+    "frequency": 0
+  },
+  {
+    "expression": "ないともかぎらない",
+    "meaning": "might",
+    "frequency": 3
+  },
+  {
+    "expression": "にこしたことはない",
+    "meaning": "it is best that",
+    "frequency": 0
+  },
+  {
+    "expression": "もさしつかえない",
+    "meaning": "it is okay if",
+    "frequency": 1
+  },
+  {
+    "expression": "言わすもがな",
+    "meaning": "as well not to",
+    "frequency": 0
+  },
+  {
+    "expression": "ではかなわない",
+    "meaning": "cannot be possible without",
+    "frequency": 0
+  },
+  {
+    "expression": "てみせる",
+    "meaning": "will do something",
+    "frequency": 2
+  },
+  {
+    "expression": "なくはない",
+    "meaning": "it is not impossible",
+    "frequency": 2
+  },
+  {
+    "expression": "はばからない",
+    "meaning": "having no hesitation in declaring",
+    "frequency": 1
+  },
+  {
+    "expression": "やら",
+    "meaning": "such thing as",
+    "frequency": 27
+  },
+  {
+    "expression": "ようものなら",
+    "meaning": "if one chooses to; if one happens to",
+    "frequency": 3
+  },
+  {
+    "expression": "割りに",
+    "meaning": "despite; although; unexpectedly",
+    "frequency": 2
+  },
+  {
+    "expression": "かいもなく",
+    "meaning": "even though",
+    "frequency": 2
+  },
+  {
+    "expression": "ずじまい",
+    "meaning": "never; did not",
+    "frequency": 3
+  },
+  {
+    "expression": "だけまし",
+    "meaning": "one should feel grateful for",
+    "frequency": 1
+  },
+  {
+    "expression": "にかこつけて",
+    "meaning": "dakemashone should feel grateful fori",
+    "frequency": 0
+  },
+  {
+    "expression": "にとどまらず",
+    "meaning": "it does not stop there",
+    "frequency": 0
+  },
+  {
+    "expression": "のなんのと",
+    "meaning": "extremely",
+    "frequency": 0
+  },
+  {
+    "expression": "をふまえて",
+    "meaning": "based on",
+    "frequency": 2
+  },
+  {
+    "expression": "んだって",
+    "meaning": "I heart that",
+    "frequency": 27
+  },
+  {
+    "expression": "ならだろうに",
+    "meaning": "if so",
+    "frequency": 1
+  },
+  {
+    "expression": "というもの",
+    "meaning": "a thing such as",
+    "frequency": 28
+  },
+  {
+    "expression": "ことだし",
+    "meaning": "since; because",
+    "frequency": 2
+  },
+  {
+    "expression": "てでも",
+    "meaning": "even if I have to; by all means",
+    "frequency": 4
+  },
+  {
+    "expression": "てまえ",
+    "meaning": "before; in front of; one’s standpoint",
+    "frequency": 0
+  },
+  {
+    "expression": "てまで",
+    "meaning": "even",
+    "frequency": 3
+  },
+  {
+    "expression": "をおして",
+    "meaning": "although",
+    "frequency": 0
+  },
+  {
+    "expression": "をへて",
+    "meaning": "through",
+    "frequency": 1
+  }
+]
