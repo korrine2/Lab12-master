@@ -30,8 +30,7 @@ import java.util.Scanner;
  * Main class for our UI design lab.
  */
 public final class MainActivity extends AppCompatActivity {
-    /** Default logging tag for messages from the main activity. */
-    private static final String TAG = "Lab12:Main";
+
     /**
      * Run when this activity comes to the foreground.
      *

@@ -28,8 +28,10 @@ public class updated extends AppCompatActivity {
         String userInput = intent.getExtras().getString("userInput");
         String jsonFile = get_json();
         JsonParser p = new JsonParser();
+        //JsonArray arr = p.parse(jsonFile).getAsJsonObject().get("Data").getAsJsonArray();
         JsonArray arr = p.parse(jsonFile).getAsJsonArray();
-        for (int i = 0; i < arr.size(); i++) {
+
+        for (int i = 1; i < arr.size(); i++) {
             JsonObject obj = arr.get(i).getAsJsonObject();
             String expression = obj.get("expression").getAsString();
             if (expression.equals(userInput)) {
@@ -70,7 +72,7 @@ public class updated extends AppCompatActivity {
             Scanner s = new Scanner(is).useDelimiter("\\A");
             String result = s.hasNext() ? s.next() : "";
             return result;
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
