@@ -55,7 +55,7 @@ public final class MainActivity extends AppCompatActivity {
         });
     }
     protected void search(final String userInput) {
-        ImageView logoPic = findViewById(R.id.logo);
+        //ImageView logoPic = findViewById(R.id.logo);
         String jsonFile = get_json();
         //System.out.println("start printing \n\n\n");
         //System.out.println(jsonFile);
@@ -96,7 +96,7 @@ public final class MainActivity extends AppCompatActivity {
 
     }
     public String get_json() {
-        String json;
+        //String json;
         try {
             InputStream is = getAssets().open("json_cs15_final_project_2.json");
             Scanner s = new Scanner(is).useDelimiter("\\A");
