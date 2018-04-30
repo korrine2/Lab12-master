@@ -28,11 +28,14 @@ public class updated extends AppCompatActivity {
         Intent intent = getIntent();
         String userInput = intent.getExtras().getString("userInput");
         String jsonFile = get_json();
+        //System.out.println("start printing \n\n\n");
+        //System.out.println(jsonFile);
         JsonParser p = new JsonParser();
         //JsonArray arr = p.parse(jsonFile).getAsJsonObject().get("Data").getAsJsonArray();
         JsonArray arr = p.parse(jsonFile).getAsJsonArray();
 
-        for (int i = 1; i < arr.size(); i++) {
+        boolean found = false;
+        for (int i = 0; i < arr.size(); i++) {
             JsonObject obj = arr.get(i).getAsJsonObject();
             String expression = obj.get("expression").getAsString();
             if (expression.equals(userInput)) {
@@ -40,22 +43,26 @@ public class updated extends AppCompatActivity {
                     phraseSearched.setText(obj.get("expression").getAsString());
                 TextView phraseDefined= findViewById(R.id.Definition_Phrase);
                     phraseDefined.setText(obj.get("meaning").getAsString());
-                TextView phraseExample= findViewById(R.id.Intro_to_Example);
+                TextView phraseExample = findViewById(R.id.Intro_to_Example);
                     phraseExample.setText("例文/Examples of usage :");
-                TextView phraseSentence= findViewById(R.id.Example_Sentence);
+                TextView phraseSentence = findViewById(R.id.Example_Sentence);
                     phraseSentence.setText(obj.get("example").getAsString());
-                TextView phraseSentenceEnglish= findViewById(R.id.English_translation);
+                TextView phraseSentenceEnglish = findViewById(R.id.English_translation);
                     phraseSentenceEnglish.setText(obj.get("example_translation").getAsString());
-                TextView phraseFrequency= findViewById(R.id.Possibility);
+                TextView phraseFrequency = findViewById(R.id.Possibility);
                     phraseFrequency.setText("Frequency :");
-                TextView phraseFrequencyNo= findViewById(R.id.Possibility_Percentage);
-                    phraseFrequencyNo.setText(obj.get("frequency").getAsInt());
+                TextView phraseFrequencyNo = findViewById(R.id.Possibility_Percentage);
+                    phraseFrequencyNo.setText(obj.get("frequency").getAsString());
+                    found = true;
                     break;
-            } else {
-                TextView phraseSearched = findViewById(R.id.Phrase_Searched);
-                phraseSearched.setText("Invalid Input");
-                phraseSearched.setTextColor(Color.parseColor("#FF0000"));
             }
+
+        }
+        if(!found) {
+            TextView phraseSearched = findViewById(R.id.Phrase_Searched);
+            phraseSearched.setText("Invalid Input");
+            phraseSearched.setTextColor(Color.parseColor("#FF0000"));
+
         }
         logoPic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,7 +76,7 @@ public class updated extends AppCompatActivity {
     public String get_json() {
         String json;
         try {
-            InputStream is = getAssets().open("json_cs15_final_project_2");
+            InputStream is = getAssets().open("json_cs15_final_project_2.json");
             Scanner s = new Scanner(is).useDelimiter("\\A");
             String result = s.hasNext() ? s.next() : "";
             return result;
