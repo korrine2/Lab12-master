@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="428dp"
+        android:layout_height="353dp"
         android:layout_weight="1"
         android:background="@drawable/marcoblosoms"
         android:orientation="vertical">
@@ -109,7 +109,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal">
@@ -129,12 +129,59 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                     tools:text="                                                 Phrase" />
 
-                <TextView
-                    android:id="@+id/Definition_Phrase"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="33dp"
-                    android:text="    Meaning : BLAH definition of the word provided here"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bullet_point"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:gravity="top"
+                        android:text="    " />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="106dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="Meaning :"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                    <TextView
+                        android:id="@+id/bullet_point2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:gravity="top"
+                        android:text="    " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bullet_point"
+                        android:layout_width="35dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:gravity="right"
+                        android:text="*  " />
+
+                    <TextView
+                        android:id="@+id/Definition_Phrase"
+                        android:layout_width="307dp"
+                        android:layout_height="33dp"
+                        android:layout_weight="0"
+                        android:text="Definition of the phrase is provided here"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -174,18 +221,18 @@
 
                     <TextView
                         android:id="@+id/bullet_point"
-                        android:layout_width="wrap_content"
+                        android:layout_width="35dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
-                        android:gravity="top"
-                        android:text="    " />
+                        android:gravity="right"
+                        android:text="*  " />
 
                     <TextView
                         android:id="@+id/Example_Sentence"
-                        android:layout_width="336dp"
-                        android:layout_height="82dp"
+                        android:layout_width="307dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="0"
-                        android:text="   This would be an example of how the phrase would be used in a sentence. we can even add a picture to help the reader visualise the phrase if that is possible. "
+                        android:text="This would be an example of how the phrase would be used in a Japanese sentence. "
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
                     <TextView
@@ -213,9 +260,41 @@
                         android:text="    " />
 
                     <TextView
-                        android:id="@+id/English_translation"
+                        android:id="@+id/Intro_to_Example"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="Examples of English usage:"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                    <TextView
+                        android:id="@+id/bullet_point2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:gravity="top"
+                        android:text="    " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bullet_point"
+                        android:layout_width="36dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:gravity="right"
+                        android:text="*  " />
+
+                    <TextView
+                        android:id="@+id/English_translation"
+                        android:layout_width="306dp"
+                        android:layout_height="29dp"
                         android:layout_weight="0"
                         android:text="English translation"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
@@ -236,26 +315,26 @@
         <LinearLayout
             android:id="@+id/Pissibility_Horizontal"
             android:layout_width="match_parent"
-            android:layout_height="94dp"
+            android:layout_height="87dp"
             android:gravity="center"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/Possibility"
                 android:layout_width="398dp"
-                android:layout_height="51dp"
+                android:layout_height="43dp"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="          FREQUENCY :        (out of what, not actually a percent)"
+                android:gravity="top|center_horizontal"
+                android:text="          FREQUENCY :"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 tools:text="          FREQUENCY :" />
 
             <TextView
                 android:id="@+id/Possibility_Percentage"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
+                android:layout_width="293dp"
+                android:layout_height="43dp"
                 android:layout_weight="1"
-                android:text="100%"
+                android:gravity="top|center_horizontal"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
 
         </LinearLayout>
