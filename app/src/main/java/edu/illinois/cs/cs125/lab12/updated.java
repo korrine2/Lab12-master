@@ -24,6 +24,7 @@ public class updated extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.updated);
         ImageView logoPic = findViewById(R.id.logo);
+
         Intent intent = getIntent();
         String userInput = intent.getExtras().getString("userInput");
         String jsonFile = get_json();
